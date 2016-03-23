@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300);
+body{
+    background: url(../imagens/bg-body.jpg);
+}
+.divCenter{
+    width: 800px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.boxposts li{
+    width: 758px;
+    height: auto;
+    padding: 20px;
+    background:#FFFFFF;
+    border: 1px solid #EEEEEE;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    border-bottom: 10px solid #EEEEEE;
+    margin: 30px 0;
+}
+.thumb{
+    width: 166px;
+    height: 166px;
+    float: left;
+    border: 4px solid #EEEEEE;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-right: 24px;
+}
+.content{
+    float: left;
+    width: 560px;
+}
+.content h1{
+    font-size: 20px;
+    font-weight: bold;
+    color: #666666;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.content p{
+    font-family: tahoma, "Trebuchet Ms", arial, sans-serif;
+    font-size: 13px;
+    color: #999999;
+    line-height: 20px;
+}
+
+.footer_post{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    padding-top:8px;
+    margin-top:8px;
+    border-top:1px dotted #eee;
+}
+
+.footer_post a{
+    font-family:tahoma, "Trebuchet Ms", arial;
+    font-size:13px;
+    color:#666;
+    line-height:20px;
+    font-weight:bold;
+    text-decoration:none;
+    float:left;
+}
+
+.footer_post a:hover{
+    text-decoration:underline;
+}
+
+.dataPost{
+    font-family:tahoma, "Trebuchet Ms", arial;
+    font-size:13px;
+    color:#999;
+    line-height:20px;
+    float:right;
+}
+
+.dataPost strong{
+    color:#666;
+    font-weight:bold;
+}
+
+
+
+
+
+
+
