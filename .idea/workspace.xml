@@ -2,20 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d687db76-cfb0-40db-aa46-7b080c333e4e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/postagens/12151.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/postagens/16268.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/postagens/18552.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/postagens/23677.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/postagens/24298.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/postagens/26075.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/postagens/26325.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/postagens/3332.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/postagens/6993.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/pages/cad-postagem.php" afterPath="$PROJECT_DIR$/admin/pages/cad-postagem.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/pages/edt-postagem.php" afterPath="$PROJECT_DIR$/admin/pages/edt-postagem.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/home.php" afterPath="$PROJECT_DIR$/admin/home.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/post.php" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\charts.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\editor.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\docs\Callback_function_notes.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\docs\DomainKeys_notes.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\docs\Note_for_SMTP_debugging.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\docs\extending.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\docs\faq.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\docs\pop3_article.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\docs\use_gmail.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\language\phpmailer.lang-ar.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\language\phpmailer.lang-ca.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\language\phpmailer.lang-ch.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\language\phpmailer.lang-cz.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\language\phpmailer.lang-de.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\language\phpmailer.lang-dk.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\language\phpmailer.lang-es.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\language\phpmailer.lang-et.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\language\phpmailer.lang-fi.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\language\phpmailer.lang-fo.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\language\phpmailer.lang-fr.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\language\phpmailer.lang-hu.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\language\phpmailer.lang-it.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\language\phpmailer.lang-ja.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\language\phpmailer.lang-nl.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\language\phpmailer.lang-no.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\language\phpmailer.lang-pl.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\language\phpmailer.lang-ro.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\language\phpmailer.lang-ru.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\language\phpmailer.lang-se.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\language\phpmailer.lang-tr.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\language\phpmailer.lang-zh.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\language\phpmailer.lang-zh_cn.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\test\contents.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\test\phpmailerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\test\test.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\test\test_callback.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\envia-email\PHPMailer\test\testemail.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\error.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\faq.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\guidely.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\icons.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\pricing.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\reports.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\shortcodes.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\admin\signup.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\post\upload\postagens\16268.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/estilo.css" afterPath="$PROJECT_DIR$/css/estilo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/header.php" afterPath="$PROJECT_DIR$/admin/includes/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/pages/inicio.php" afterPath="$PROJECT_DIR$/admin/pages/inicio.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/css/style.css" afterPath="$PROJECT_DIR$/admin/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/topo.php" afterPath="$PROJECT_DIR$/admin/includes/topo.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/pages/ver-postagens.php" afterPath="$PROJECT_DIR$/admin/pages/ver-postagens.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -40,56 +77,100 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="inicio.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/pages/inicio.php">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/includes/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="63" column="36" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
-              <folding>
-                <marker date="1458425301992" expanded="true" signature="514:687" placeholder="..." />
-                <marker date="1458425301992" expanded="true" signature="3268:3319" placeholder="SELECT * fro..tb_postagens..." />
-                <marker date="1458425301992" expanded="true" signature="4839:5042" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ver-postagens.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/pages/ver-postagens.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3164557">
-              <caret line="167" column="56" selection-start-line="167" selection-start-column="56" selection-end-line="167" selection-end-column="56" />
-              <folding>
-                <marker date="1458771337577" expanded="true" signature="1074:1117" placeholder="SELECT * fro..tb_postagens..." />
-                <marker date="1458771337577" expanded="true" signature="1074:1123" placeholder="SELECT * fro..tb_postagens..." />
-                <marker date="1458771337577" expanded="true" signature="1074:1124" placeholder="SELECT * fro..tb_postagens..." />
-                <marker date="1458771337577" expanded="true" signature="1074:1131" placeholder="SELECT * fro..tb_postagens..." />
-                <marker date="1458771337577" expanded="true" signature="1074:1132" placeholder="SELECT * fro..tb_postagens..." />
-                <marker date="1458771337577" expanded="true" signature="1074:1133" placeholder="SELECT * fro..tb_postagens..." />
-                <marker date="1458771337577" expanded="true" signature="2285:2488" placeholder="..." />
-                <marker date="1458771337577" expanded="true" signature="3409:3435" placeholder="SELECT * FRO..tb_postagens..." />
-                <marker date="1458771337577" expanded="true" signature="3976:4087" placeholder="..." />
-                <marker date="1458771337577" expanded="true" signature="5266:5338" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.0">
-              <caret line="1287" column="0" selection-start-line="1287" selection-start-column="0" selection-end-line="1287" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.230769">
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/home.php">
+      <file leaf-file-name="topo.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/includes/topo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.269231">
-              <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+            <state vertical-scroll-proportion="-17.0">
+              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ver-postagens.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/pages/ver-postagens.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="17.927273">
+              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+              <folding>
+                <marker date="1458938617127" expanded="true" signature="251:297" placeholder="SELECT * FRO..tb_postagens..." />
+                <marker date="1458938617127" expanded="true" signature="746:790" placeholder="DELETE FROM ..." />
+                <marker date="1458938617127" expanded="true" signature="1054:1261" placeholder="..." />
+                <marker date="1458938617127" expanded="true" signature="1326:1542" placeholder="..." />
+                <marker date="1458938617127" expanded="true" signature="3017:3133" placeholder="SELECT * FRO..tb_postagens..." />
+                <marker date="1458938617127" expanded="true" signature="3218:3276" placeholder="SELECT * fro..tb_postagens..." />
+                <marker date="1458938617127" expanded="true" signature="4572:4792" placeholder="..." />
+                <marker date="1458938617127" expanded="true" signature="5820:5904" placeholder="SELECT * FRO..tb_postagens..." />
+                <marker date="1458938617127" expanded="true" signature="5936:5962" placeholder="SELECT * FRO..tb_postagens..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logout.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/includes/logout.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.230769">
+              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/post.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.653846">
+              <caret line="66" column="69" selection-start-line="66" selection-start-column="69" selection-end-line="66" selection-end-column="69" />
+              <folding>
+                <marker date="1458924201964" expanded="true" signature="487:551" placeholder="SELECT * fro..tb_postagens..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lembrar.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/lembrar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.1099657">
+              <caret line="101" column="65" selection-start-line="101" selection-start-column="65" selection-end-line="101" selection-end-column="65" />
+              <folding>
+                <marker date="1458757148000" expanded="true" signature="1820:1860" placeholder="SELECT * fro..login..." />
+                <marker date="1458757148000" expanded="true" signature="4000:4235" placeholder="..." />
+                <marker date="1458757148000" expanded="true" signature="4330:4568" placeholder="..." />
+                <marker date="1458757148000" expanded="true" signature="4628:4857" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class.phpmailer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/envia-email/PHPMailer/class.phpmailer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.090909">
+              <caret line="244" column="32" selection-start-line="244" selection-start-column="32" selection-end-line="244" selection-end-column="32" />
+              <folding>
+                <element signature="e#6#1982#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class.pop3.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/envia-email/PHPMailer/class.pop3.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.2363636">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -104,14 +185,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/admin/shortcodes.html" />
-        <option value="$PROJECT_DIR$/admin/includes/header.php" />
         <option value="$PROJECT_DIR$/admin/pages/ver-postagem.php" />
         <option value="$PROJECT_DIR$/admin/home.php" />
-        <option value="$PROJECT_DIR$/admin/includes/topo.php" />
-        <option value="$PROJECT_DIR$/admin/pages/inicio.php" />
         <option value="$PROJECT_DIR$/admin/pages/cad-postagem.php" />
         <option value="$PROJECT_DIR$/admin/pages/edt-postagem.php" />
         <option value="$PROJECT_DIR$/admin/css/style.css" />
+        <option value="$PROJECT_DIR$/admin/includes/header.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/post.php" />
+        <option value="$PROJECT_DIR$/admin/pages/inicio.php" />
+        <option value="$PROJECT_DIR$/admin/includes/topo.php" />
         <option value="$PROJECT_DIR$/admin/pages/ver-postagens.php" />
       </list>
     </option>
@@ -165,62 +248,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sistema" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sistema" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sistema" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sistema" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imagens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sistema" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sistema" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sistema" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sistema" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -233,10 +260,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\post" />
+      <recent name="C:\wamp\www\post\css" />
       <recent name="C:\wamp\www\sistema\admin\pages" />
       <recent name="C:\wamp\www\sistema\admin" />
       <recent name="C:\wamp\www\sistema" />
-      <recent name="C:\wamp\www\sistema\admin\js" />
     </key>
   </component>
   <component name="RunManager">
@@ -282,9 +310,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1757353" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26985294" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -340,75 +368,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/pages/inicio.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="63" column="36" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
-          <folding>
-            <marker date="1458425301992" expanded="true" signature="514:687" placeholder="..." />
-            <marker date="1458425301992" expanded="true" signature="3268:3319" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458425301992" expanded="true" signature="4839:5042" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="96" column="69" selection-start-line="96" selection-start-column="12" selection-end-line="96" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/pages/cad-postagem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/pages/ver-postagens.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
-          <folding>
-            <marker date="1458771337577" expanded="true" signature="1074:1117" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="1074:1123" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="1074:1124" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="1074:1131" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="1074:1132" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="1074:1133" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="2285:2488" placeholder="..." />
-            <marker date="1458771337577" expanded="true" signature="3409:3435" placeholder="SELECT * FRO..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="3976:4087" placeholder="..." />
-            <marker date="1458771337577" expanded="true" signature="5266:5338" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/pages/edt-postagem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="245" column="9" selection-start-line="245" selection-start-column="9" selection-end-line="245" selection-end-column="9" />
-          <folding>
-            <marker date="1458766834504" expanded="true" signature="-1:-1" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458766834504" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458766834504" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458766834504" expanded="true" signature="-1:-1" placeholder="UPDATE tb_po..." />
-            <marker date="1458766834504" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458766834504" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -422,9 +381,13 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="63" column="36" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
           <folding>
-            <marker date="1458425301992" expanded="true" signature="514:687" placeholder="..." />
-            <marker date="1458425301992" expanded="true" signature="3268:3319" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458425301992" expanded="true" signature="4839:5042" placeholder="..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..tb_postagens..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="SELECT * fro..tb_postagens..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -448,7 +411,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1458757148000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458757148000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458757148000" expanded="true" signature="-1:-1" placeholder="INSERT into ..." />
+            <marker date="1458757148000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458757148000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -457,16 +426,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
           <folding>
-            <marker date="1458771337577" expanded="true" signature="1074:1117" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="1074:1123" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="1074:1124" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="1074:1131" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="1074:1132" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="1074:1133" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="2285:2488" placeholder="..." />
-            <marker date="1458771337577" expanded="true" signature="3409:3435" placeholder="SELECT * FRO..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="3976:4087" placeholder="..." />
-            <marker date="1458771337577" expanded="true" signature="5266:5338" placeholder="..." />
+            <marker date="1458938617127" expanded="true" signature="251:297" placeholder="SELECT * FRO..tb_postagens..." />
+            <marker date="1458938617127" expanded="true" signature="746:790" placeholder="DELETE FROM ..." />
+            <marker date="1458938617127" expanded="true" signature="1054:1261" placeholder="..." />
+            <marker date="1458938617127" expanded="true" signature="1326:1542" placeholder="..." />
+            <marker date="1458938617127" expanded="true" signature="3017:3133" placeholder="SELECT * FRO..tb_postagens..." />
+            <marker date="1458938617127" expanded="true" signature="3218:3276" placeholder="SELECT * fro..tb_postagens..." />
+            <marker date="1458938617127" expanded="true" signature="4572:4792" placeholder="..." />
+            <marker date="1458938617127" expanded="true" signature="5820:5904" placeholder="SELECT * FRO..tb_postagens..." />
+            <marker date="1458938617127" expanded="true" signature="5936:5962" placeholder="SELECT * FRO..tb_postagens..." />
           </folding>
         </state>
       </provider>
@@ -475,14 +443,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="254" column="9" selection-start-line="254" selection-start-column="9" selection-end-line="254" selection-end-column="9" />
-          <folding>
-            <marker date="1458766834504" expanded="true" signature="-1:-1" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458766834504" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458766834504" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458766834504" expanded="true" signature="-1:-1" placeholder="UPDATE tb_po..." />
-            <marker date="1458766834504" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458766834504" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -499,9 +460,13 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="63" column="36" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
           <folding>
-            <marker date="1458425301992" expanded="true" signature="514:687" placeholder="..." />
-            <marker date="1458425301992" expanded="true" signature="3268:3319" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458425301992" expanded="true" signature="4839:5042" placeholder="..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..tb_postagens..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="SELECT * fro..tb_postagens..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -525,7 +490,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1458757148000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458757148000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458757148000" expanded="true" signature="-1:-1" placeholder="INSERT into ..." />
+            <marker date="1458757148000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458757148000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -534,16 +505,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
           <folding>
-            <marker date="1458771337577" expanded="true" signature="1074:1117" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="1074:1123" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="1074:1124" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="1074:1131" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="1074:1132" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="1074:1133" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="2285:2488" placeholder="..." />
-            <marker date="1458771337577" expanded="true" signature="3409:3435" placeholder="SELECT * FRO..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="3976:4087" placeholder="..." />
-            <marker date="1458771337577" expanded="true" signature="5266:5338" placeholder="..." />
+            <marker date="1458938617127" expanded="true" signature="251:297" placeholder="SELECT * FRO..tb_postagens..." />
+            <marker date="1458938617127" expanded="true" signature="746:790" placeholder="DELETE FROM ..." />
+            <marker date="1458938617127" expanded="true" signature="1054:1261" placeholder="..." />
+            <marker date="1458938617127" expanded="true" signature="1326:1542" placeholder="..." />
+            <marker date="1458938617127" expanded="true" signature="3017:3133" placeholder="SELECT * FRO..tb_postagens..." />
+            <marker date="1458938617127" expanded="true" signature="3218:3276" placeholder="SELECT * fro..tb_postagens..." />
+            <marker date="1458938617127" expanded="true" signature="4572:4792" placeholder="..." />
+            <marker date="1458938617127" expanded="true" signature="5820:5904" placeholder="SELECT * FRO..tb_postagens..." />
+            <marker date="1458938617127" expanded="true" signature="5936:5962" placeholder="SELECT * FRO..tb_postagens..." />
           </folding>
         </state>
       </provider>
@@ -552,14 +522,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="254" column="9" selection-start-line="254" selection-start-column="9" selection-end-line="254" selection-end-column="9" />
-          <folding>
-            <marker date="1458766834504" expanded="true" signature="-1:-1" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458766834504" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458766834504" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458766834504" expanded="true" signature="-1:-1" placeholder="UPDATE tb_po..." />
-            <marker date="1458766834504" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458766834504" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -576,9 +539,13 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="63" column="36" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
           <folding>
-            <marker date="1458425301992" expanded="true" signature="514:687" placeholder="..." />
-            <marker date="1458425301992" expanded="true" signature="3268:3319" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458425301992" expanded="true" signature="4839:5042" placeholder="..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..tb_postagens..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="SELECT * fro..tb_postagens..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -602,7 +569,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="156" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1458757148000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458757148000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458757148000" expanded="true" signature="-1:-1" placeholder="INSERT into ..." />
+            <marker date="1458757148000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458757148000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -611,16 +584,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
           <folding>
-            <marker date="1458771337577" expanded="true" signature="1074:1117" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="1074:1123" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="1074:1124" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="1074:1131" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="1074:1132" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="1074:1133" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="2285:2488" placeholder="..." />
-            <marker date="1458771337577" expanded="true" signature="3409:3435" placeholder="SELECT * FRO..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="3976:4087" placeholder="..." />
-            <marker date="1458771337577" expanded="true" signature="5266:5338" placeholder="..." />
+            <marker date="1458938617127" expanded="true" signature="251:297" placeholder="SELECT * FRO..tb_postagens..." />
+            <marker date="1458938617127" expanded="true" signature="746:790" placeholder="DELETE FROM ..." />
+            <marker date="1458938617127" expanded="true" signature="1054:1261" placeholder="..." />
+            <marker date="1458938617127" expanded="true" signature="1326:1542" placeholder="..." />
+            <marker date="1458938617127" expanded="true" signature="3017:3133" placeholder="SELECT * FRO..tb_postagens..." />
+            <marker date="1458938617127" expanded="true" signature="3218:3276" placeholder="SELECT * fro..tb_postagens..." />
+            <marker date="1458938617127" expanded="true" signature="4572:4792" placeholder="..." />
+            <marker date="1458938617127" expanded="true" signature="5820:5904" placeholder="SELECT * FRO..tb_postagens..." />
+            <marker date="1458938617127" expanded="true" signature="5936:5962" placeholder="SELECT * FRO..tb_postagens..." />
           </folding>
         </state>
       </provider>
@@ -629,14 +601,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="254" column="9" selection-start-line="254" selection-start-column="9" selection-end-line="254" selection-end-column="9" />
-          <folding>
-            <marker date="1458766834504" expanded="true" signature="-1:-1" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458766834504" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458766834504" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458766834504" expanded="true" signature="-1:-1" placeholder="UPDATE tb_po..." />
-            <marker date="1458766834504" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458766834504" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -653,9 +618,13 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="85" column="14" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="14" />
           <folding>
-            <marker date="1458425301992" expanded="true" signature="514:687" placeholder="..." />
-            <marker date="1458425301992" expanded="true" signature="3268:3319" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458425301992" expanded="true" signature="4839:5042" placeholder="..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..tb_postagens..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="SELECT * fro..tb_postagens..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -672,7 +641,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1458757148000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458757148000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458757148000" expanded="true" signature="-1:-1" placeholder="INSERT into ..." />
+            <marker date="1458757148000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458757148000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -680,13 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/shortcodes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.709091">
-          <caret line="179" column="50" selection-start-line="176" selection-start-column="20" selection-end-line="179" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -698,13 +666,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/editor/demos/demo01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/editor.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -738,13 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17525773">
@@ -753,93 +707,168 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/logout.php">
+    <entry file="file://$PROJECT_DIR$/admin/pages/edt-postagem.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/topo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.8109966">
-          <caret line="3" column="142" selection-start-line="3" selection-start-column="142" selection-end-line="3" selection-end-column="142" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.84707904">
-          <caret line="29" column="75" selection-start-line="29" selection-start-column="75" selection-end-line="29" selection-end-column="75" />
+        <state vertical-scroll-proportion="0.32130584">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/pages/cad-postagem.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4896908">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="100" column="52" selection-start-line="100" selection-start-column="52" selection-end-line="100" selection-end-column="52" />
+          <folding>
+            <marker date="1458757148000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458757148000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458757148000" expanded="true" signature="-1:-1" placeholder="INSERT into ..." />
+            <marker date="1458757148000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458757148000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/estilo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/pages/inicio.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="63" column="36" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+        <state vertical-scroll-proportion="-8.5">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
           <folding>
-            <marker date="1458425301992" expanded="true" signature="514:687" placeholder="..." />
-            <marker date="1458425301992" expanded="true" signature="3268:3319" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458425301992" expanded="true" signature="4839:5042" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/pages/edt-postagem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61340207">
-          <caret line="189" column="107" selection-start-line="189" selection-start-column="107" selection-end-line="189" selection-end-column="107" />
-          <folding>
-            <marker date="1458766834504" expanded="true" signature="-1:-1" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458766834504" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458766834504" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458766834504" expanded="true" signature="-1:-1" placeholder="UPDATE tb_po..." />
-            <marker date="1458766834504" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1458766834504" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..tb_postagens..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="SELECT * fro..tb_postagens..." />
+            <marker date="1458926485229" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.269231">
-          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/css/style.css">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.0">
-          <caret line="1287" column="0" selection-start-line="1287" selection-start-column="0" selection-end-line="1287" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.116838485">
+          <caret line="60" column="64" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="64" />
+          <folding>
+            <marker date="1458918616333" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458918616333" expanded="true" signature="-1:-1" placeholder="SELECT * fro..tb_postagens..." />
+            <marker date="1458918616333" expanded="true" signature="-1:-1" placeholder="SELECT * fro..tb_postagens..." />
+            <marker date="1458918616333" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/topo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.0">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/pages/ver-postagens.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3164557">
-          <caret line="167" column="56" selection-start-line="167" selection-start-column="56" selection-end-line="167" selection-end-column="56" />
+        <state vertical-scroll-proportion="17.927273">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
           <folding>
-            <marker date="1458771337577" expanded="true" signature="1074:1117" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="1074:1123" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="1074:1124" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="1074:1131" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="1074:1132" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="1074:1133" placeholder="SELECT * fro..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="2285:2488" placeholder="..." />
-            <marker date="1458771337577" expanded="true" signature="3409:3435" placeholder="SELECT * FRO..tb_postagens..." />
-            <marker date="1458771337577" expanded="true" signature="3976:4087" placeholder="..." />
-            <marker date="1458771337577" expanded="true" signature="5266:5338" placeholder="..." />
+            <marker date="1458938617127" expanded="true" signature="251:297" placeholder="SELECT * FRO..tb_postagens..." />
+            <marker date="1458938617127" expanded="true" signature="746:790" placeholder="DELETE FROM ..." />
+            <marker date="1458938617127" expanded="true" signature="1054:1261" placeholder="..." />
+            <marker date="1458938617127" expanded="true" signature="1326:1542" placeholder="..." />
+            <marker date="1458938617127" expanded="true" signature="3017:3133" placeholder="SELECT * FRO..tb_postagens..." />
+            <marker date="1458938617127" expanded="true" signature="3218:3276" placeholder="SELECT * fro..tb_postagens..." />
+            <marker date="1458938617127" expanded="true" signature="4572:4792" placeholder="..." />
+            <marker date="1458938617127" expanded="true" signature="5820:5904" placeholder="SELECT * FRO..tb_postagens..." />
+            <marker date="1458938617127" expanded="true" signature="5936:5962" placeholder="SELECT * FRO..tb_postagens..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/envia-email/envia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.28522336">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.653846">
+          <caret line="66" column="69" selection-start-line="66" selection-start-column="69" selection-end-line="66" selection-end-column="69" />
+          <folding>
+            <marker date="1458924201964" expanded="true" signature="487:551" placeholder="SELECT * fro..tb_postagens..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/envia-email/PHPMailer/class.smtp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.443038">
+          <caret line="474" column="26" selection-start-line="474" selection-start-column="26" selection-end-line="474" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/envia-email/PHPMailer/class.pop3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2363636">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/envia-email/PHPMailer/class.phpmailer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.090909">
+          <caret line="244" column="32" selection-start-line="244" selection-start-column="32" selection-end-line="244" selection-end-column="32" />
+          <folding>
+            <element signature="e#6#1982#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/lembrar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1099657">
+          <caret line="101" column="65" selection-start-line="101" selection-start-column="65" selection-end-line="101" selection-end-column="65" />
+          <folding>
+            <marker date="1458757148000" expanded="true" signature="1820:1860" placeholder="SELECT * fro..login..." />
+            <marker date="1458757148000" expanded="true" signature="4000:4235" placeholder="..." />
+            <marker date="1458757148000" expanded="true" signature="4330:4568" placeholder="..." />
+            <marker date="1458757148000" expanded="true" signature="4628:4857" placeholder="..." />
           </folding>
         </state>
       </provider>

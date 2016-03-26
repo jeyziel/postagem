@@ -7,6 +7,31 @@ if(!isset($_SESSION['usuarioj']) && (!isset($_SESSION['senhaj']))){
 }
 include("conexao/conecta.php");
 include("includes/logout.php");
+// seleciona a usuario logado
+$usuarioLogado = $_SESSION['usuarioj'];
+$senhaLogado = $_SESSION['senhaj'];
+$selecionaLogado = "SELECT * from login WHERE usuario=:usuarioLogado AND senha=:senhaLogado";
+try{
+    $result = $conexao->prepare($selecionaLogado);
+    $result->bindParam('usuarioLogado',$usuarioLogado, PDO::PARAM_STR);
+    $result->bindParam('senhaLogado',$senhaLogado, PDO::PARAM_STR);
+    $result->execute();
+    $contar = $result->rowCount();
+
+    if($contar =1){
+        $loop = $result->fetchAll();
+        foreach ($loop as $show){
+            $nomeLogado = $show['nome'];
+            $userLogado = $show['usuario'];
+            $emailLogado = $show['email'];
+            $senhaLogado = $show['senha'];
+            $nivelLogado = $show['nivel'];
+        }
+    }
+
+}catch (PDOWException $erro){ echo $erro;}
+
+
 ?>
 <!DOCTYPE html>
 <html lang="PT-BR">

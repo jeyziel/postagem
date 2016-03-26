@@ -3,6 +3,64 @@
 	<div class="main-inner">
 		<div class="container">
 			<div class="row">
+				<div class="span12">
+				<?php
+				//excluir
+				if(isset($_GET['delete'])){
+					$id_delete = $_GET['delete'];
+
+					//seleciona a imagem
+					$select ="SELECT * FROM tb_postagens WHERE id=:id_delete";
+					try{
+						$result = $conexao->prepare($select);
+						$result->bindParam('id_delete',$id_delete,PDO::PARAM_INT);
+						$result->execute();
+						$contar = $result->rowCount();
+						if($contar>0){
+							$loop =$result->fetchAll();
+							foreach($loop as $exibir){
+							}
+							$fotoDeleta = $exibir['imagem'];
+							$arquivo = "../upload/postagens/".$fotoDeleta;
+							unlink($arquivo);
+
+
+							//exclui o registro
+							$select ="DELETE FROM tb_postagens WHERE id=:id_delete";
+							try{
+								$result = $conexao->prepare($select);
+								$result->bindParam('id_delete',$id_delete,PDO::PARAM_INT);
+								$result->execute();
+								$contar = $result->rowCount();
+								if($contar>0){
+									echo '<div class="alert alert-sucess">
+                      					 <button type="button" class="close" data-dismiss="alert">×</button>
+                      					 <strong>post deletado!</strong> o post foi deletado.
+                						 </div>';
+								}else{
+									echo '<div class="alert alert-danger">
+                     				 <button type="button" class="close" data-dismiss="alert">×</button>
+                     				 <strong>Erro ao deletar!</strong> Não foi possível deletar o post.
+               						 </div>';
+
+							}
+						}catch (PDOException $erro){
+								echo $erro;
+							}
+
+
+
+						}else{
+							echo 'já excluiu ou nao existe';
+
+						}
+
+					}catch (PDOException $erro){
+						echo $erro;
+					}
+				}
+				?>
+				</div>
 
 				<div class="span12">
 					<div class="widget widget-table action-table">
@@ -28,26 +86,32 @@
 								<?php
 								include ("functions/limita-texto.php");
 								//paginação
-								if(empty($_GET['pg'])){
-
-								}else{
+								if(empty($_GET['pg'])){}
+								else{
 									$pg = $_GET['pg'];
+									if(!is_numeric($pg)){
+										echo'<script language="JavaScript">location.href="home.php?acao=ver-postagens";</script>';
+									}
+
 								}
 
-								if(isset($pg)){
-									$pg = $_GET['pg'];
-								}else{
-									$pg=1;
 
+								if(isset($pg)){$pg = $_GET['pg'];}else{$pg=1;}
+								if(isset($_POST['palavra-busca'])){
+									$quantidade = 10000;
+								}else{
+								$quantidade=10;
 								}
-								$quantidade=5;
 								$inicio = ($pg*$quantidade) - $quantidade;
+								if(isset($_POST['palavra-busca'])){
+									$busca = addslashes($_POST['palavra-busca']);
+									$select = "SELECT * FROM tb_postagens WHERE titulo LIKE '%$busca%' OR descricao LIKE '%$busca%' ORDER BY id DESC LIMIT $inicio,$quantidade";
+								}else{
+									//selecionando as postagem
+									$select = "SELECT * from tb_postagens ORDER BY id DESC LIMIT $inicio,$quantidade";
+								}
 
-
-
-								//selecionando as postagem
-								$select = "SELECT * from tb_postagens ORDER BY id DESC LIMIT $inicio,$quantidade";
-								$contagem =1;
+								$contagem =$inicio + 1;
 								try{
 									$result = $conexao->prepare($select);
 									$result->execute();
@@ -65,7 +129,7 @@
 												<td> <?php echo limitarTexto($mostra->descricao,$limite=200)  ?> </td>
 												<td class="td-actions">
 													<a href="home.php?acao=editar-postagem&id=<?php echo $mostra->id;?>" class="btn btn-small btn-success"><i class="btn-icon-only icon-edit"> </i></a>
-													<a href="javascript:;" class="btn btn-danger btn-small"><i class="btn-icon-only icon-remove"> </i></a>
+													<a href="home.php?acao=ver-postagens&pg=<?php echo $pg?>&delete=<?php echo $mostra->id;?>" class="btn btn-danger btn-small" onClick="return confirm('Deseja realmente excluir?')"><i class="btn-icon-only icon-remove"> </i></a>
 												</td>
 											</tr>
 											<!-- html-->
@@ -75,9 +139,9 @@
 
 									}else{
 										echo '<div class="alert alert-danger">
-                            <button type="button" class="close" data-dismiss="alert">×</button>
-                            <strong>Aviso!</strong> Não há Post cadastrado.
-                        </div>';
+                            				  <button type="button" class="close" data-dismiss="alert">×</button>
+                            				 <strong>Aviso!</strong> Não há Post cadastrado.
+                        					 </div>';
 									}
 
 								}catch(PDOException $e){
@@ -128,14 +192,15 @@
 
 						}
 						</style>
-
-
-
-
-
-
 						<?php
+						//paginação
+						if(isset($_POST['palavra-busca'])){
+							$busca = addslashes($_POST['palavra-busca']);
+							$sql = "SELECT * FROM tb_postagens WHERE titulo LIKE '%$busca%' OR descricao LIKE '%$busca%'";
+						}else{
+
 							$sql = "SELECT * FROM tb_postagens";
+						}
 						try{
 						$result = $conexao->prepare($sql);
 						$result->execute();

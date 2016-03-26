@@ -2,7 +2,6 @@
     <div class="main-inner">
         <div class="container">
             <div class="row">
-
                 <div class="span12">
                     <?php
                     //sumir com o bem vindo quando clicar em outra coisa
@@ -12,7 +11,7 @@
                             if($acao=='welcome'){
                                 echo '<div class="alert alert-info">
                 <button type="button" class="close" data-dismiss="alert">×</button>
-                <strong>OLÁ ADMINISTRADOR!</strong> Seja bem vindo.
+                <strong>OLÁ '.$nomeLogado.'!</strong> Seja bem vindo.
               </div>';
                             }
                         }
@@ -37,6 +36,64 @@
                     </div> <!-- /widget -->
                 </div><!-- span 12 -->
             </div><!-- row -->
+
+                <?php
+                //excluir
+                if(isset($_GET['delete'])){
+                    $id_delete = $_GET['delete'];
+
+                    //seleciona a imagem
+                    $select ="SELECT * FROM tb_postagens WHERE id=:id_delete";
+                    try{
+                        $result = $conexao->prepare($select);
+                        $result->bindParam('id_delete',$id_delete,PDO::PARAM_INT);
+                        $result->execute();
+                        $contar = $result->rowCount();
+                        if($contar>0){
+                            $loop =$result->fetchAll();
+                            foreach($loop as $exibir){
+                            }
+                            $fotoDeleta = $exibir['imagem'];
+                            $arquivo = "../upload/postagens/".$fotoDeleta;
+                            unlink($arquivo);
+
+
+                            //exclui o registro
+                            $select ="DELETE FROM tb_postagens WHERE id=:id_delete";
+                            try{
+                                $result = $conexao->prepare($select);
+                                $result->bindParam('id_delete',$id_delete,PDO::PARAM_INT);
+                                $result->execute();
+                                $contar = $result->rowCount();
+                                if($contar>0){
+                                    echo '<div class="alert alert-sucess">
+                      					 <button type="button" class="close" data-dismiss="alert">×</button>
+                      					 <strong>post deletado!</strong> o post foi deletado.
+                						 </div>';
+                                }else{
+                                    echo '<div class="alert alert-danger">
+                     				 <button type="button" class="close" data-dismiss="alert">×</button>
+                     				 <strong>Erro ao deletar!</strong> Não foi possível deletar o post.
+               						 </div>';
+
+                                }
+                            }catch (PDOException $erro){
+                                echo $erro;
+                            }
+
+
+
+                        }else{
+
+
+                        }
+
+                    }catch (PDOException $erro){
+                        echo $erro;
+                    }
+                }
+                ?>
+
             <div class="widget widget-table action-table">
                 <div class="widget-header"> <i class="icon-th-list"></i>
                     <h3>Últimos Posts</h3>
@@ -77,7 +134,8 @@
                                     <td><img src="../upload/postagens/<?php echo $mostra->imagem;?>" width="50"/></td>
                                     <td> <?php echo $mostra->exibir ?> </td>
                                     <td> <?php echo limitarTexto($mostra->descricao,$limite=200)  ?> </td>
-                                    <td class="td-actions"><a href="home.php?acao=editar-postagem&id=<?php echo $mostra->id;?>" class="btn btn-small btn-success"><i class="btn-icon-only icon-edit"> </i></a><a href="javascript:;" class="btn btn-danger btn-small"><i class="btn-icon-only icon-remove"> </i></a></td>
+                                    <td class="td-actions"><a href="home.php?acao=editar-postagem&id=<?php echo $mostra->id;?>" class="btn btn-small btn-success"><i class="btn-icon-only icon-edit"> </i>
+                                     </a><a href="home.php?delete=<?php echo $mostra->id; ?> " class="btn btn-danger btn-small"onClick="return confirm('Deseja realmente excluir?')"><i class="btn-icon-only icon-remove"> </i></a></td>
                                 </tr>
                         <!-- html-->
 
